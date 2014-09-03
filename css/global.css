@@ -523,7 +523,7 @@ html {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(/img/dark_wall.png);
+  background-image: url(http://flaturtha.github.io/aml/img/dark_wall.png);
 }
 
 *, *:before, *:after {
@@ -708,7 +708,7 @@ footer a {
 hr {
   border: 0;
   height: 1px;
-  background-image: url(/img/hr.png);
+  background-image: url(http://flaturtha.github.io/aml/img/hr.png);
 }
 
 .storypic {
