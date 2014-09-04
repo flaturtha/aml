@@ -593,6 +593,7 @@ p span {
       -ms-flex: 1;
           flex: 1;
   background-color: #f0e4ce;
+  padding: 1rem 3rem 1rem 3rem;
 }
 
 header {
@@ -722,7 +723,6 @@ hr {
   border: 0;
   height: 2px;
   background-image: url(http://flaturtha.github.io/aml/img/hr.png);
-  background-image: url(/img/hr.png);
 }
 
 .storypic {
