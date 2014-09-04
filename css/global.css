@@ -544,11 +544,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  font-family: "ltc-broadway", sans-serif;
   text-transform: uppercase;
-  text-shadow: 2px 2px #862f2f;
 }
 
 h2 span {
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #862f2f;
+}
+h3 span {
   text-transform: uppercase;
 }
 
@@ -586,7 +593,6 @@ p span {
       -ms-flex: 1;
           flex: 1;
   background-color: #f0e4ce;
-  padding: 1rem 2rem;
 }
 
 header {
@@ -640,6 +646,13 @@ footer a {
   text-decoration: none;
 }
 
+.mc {
+  float: left;
+  padding-right: 2rem;
+  width: 150px;
+  height: auto;
+}
+
 .stories {
   background-color: #f0e4ce;
   display: -webkit-box;
@@ -677,7 +690,7 @@ footer a {
 }
 
 .story {
-  font-weight: 900;
+  font-weight: 500;
   font-size: 1.25rem;
   border: 1px solid black;
   padding: 1rem 2rem;
@@ -707,8 +720,8 @@ footer a {
 
 hr {
   border: 0;
-  height: 1px;
-  background-image: url(http://flaturtha.github.io/aml/img/hr.png);
+  height: 2px;
+  background-image: url(/img/hr.png);
 }
 
 .storypic {
